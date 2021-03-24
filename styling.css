@@ -1,1 +1,16 @@
+ body{
+     margin: 0px;
+ }
  
+ #bgimg-sontactus{
+     height: 500px;
+     width: 100%;
+     background-image: url();
+     background-size: contain;
+     background-repeat: no-repeat;
+ }
+
+#our-team{
+    display: flex;
+    flex-wrap: nowrap;
+}
