@@ -1,16 +1,114 @@
- body{
-     margin: 0px;
- }
- 
- #bgimg-sontactus{
-     height: 500px;
-     width: 100%;
-     background-image: url();
-     background-size: contain;
-     background-repeat: no-repeat;
- }
+*{
+    box-sizing: border-box;
+1
+}
 
-#our-team{
+body{
+    margin: 0px;
+}
+ 
+#bgimg-contactus{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    border: 2px solid black;
+    width: 100%;
+    display: block;
+    background-size: contain;
+    
+}
+
+.contact-text{
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    font-size: 50px;
+    border: 2px solid black;
+    width: 300px;
+    display: block;
+    text-align: center;
+
+}
+
+#our-team-title{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border: 2px solid black;
+    overflow: auto;
+}
+
+.team-title{
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 50px;
+}
+
+#team-rone{
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+#cover-rone{
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    border: 2px solid black;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.members-rone{
+    flex: 33.33%;
+    border: 2px solid black;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#team-rtwo{
+    width: 100%;
+    border: 2px solid black;
+}
+
+#cover-rtwo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border: 2px solid black;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.members-rtwo-cover{
+    flex: 50%;
+    border: 2px solid black;
+    height: 150px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.members-rtwo{
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+    width: 70%;
+}
+
+.member-picture{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
+}
+
+.member-details{
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid black;
 }
