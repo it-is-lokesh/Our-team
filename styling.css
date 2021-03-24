@@ -42,6 +42,10 @@ body{
     border: 2px solid black;
     text-align: center;
     font-size: 50px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
 }
 
 #team-rone{
@@ -126,26 +130,32 @@ body{
 
 #member-pic-1{
     width: 100%;
+    border-radius: 50%;
 }
 
 #member-pic-2{
     width: 100%;
+    border-radius: 50%;
 }
 
 #member-pic-3{
     width: 100%;
+    border-radius: 50%;
 }
 
 #member-pic-4{
     width: 100%;
+    border-radius: 50%;
 }
 
 #member-pic-5{
     width: 100%;
+    border-radius: 50%;
 }
 
 #member-pic-6{
     width: 100%;
+    border-radius: 50%;
 }
 
 #tech-support{
@@ -196,4 +206,21 @@ body{
     margin-left: auto;
     border: 2px solid black;
     width: 250px;
+}
+
+.mem-name{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #333333;
+}
+
+.mem-designation{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #666666;
+    margin-top: -30px;
 }
