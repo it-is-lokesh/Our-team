@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-1
+
 }
 
 body{
@@ -53,16 +53,17 @@ body{
 #cover-rone{
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    
     border: 2px solid black;
     width: 80%;
     margin-right: auto;
     margin-left: auto;
 }
+
 .members-rone{
-    flex: 33.33%;
+    width: 250px !important;
     border: 2px solid black;
-    height: 150px;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 80px;
@@ -85,9 +86,9 @@ body{
 }
 
 .members-rtwo-cover{
-    flex: 50%;
+    flex: 250px;
     border: 2px solid black;
-    height: 150px;
+    height: 100%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -96,7 +97,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     border: 2px solid black;
-    width: 70%;
+    width: 250px;
 }
 
 .member-picture{
@@ -104,11 +105,65 @@ body{
     margin-right: auto;
     margin-left: auto;
     border: 2px solid black;
+    height: 100%;
 }
 
-.member-details{
+.member-name{
     width: 90%;
     margin-right: auto;
     margin-left: auto;
     border: 2px solid black;
+    text-align: center;
+}
+
+#member-pic-1{
+    width: 100%;
+}
+
+#member-pic-2{
+    width: 100%;
+}
+
+#member-pic-3{
+    width: 100%;
+}
+
+#member-pic-4{
+    width: 100%;
+}
+
+#member-pic-5{
+    width: 100%;
+}
+
+#member-pic-6{
+    width: 100%;
+}
+
+#tech-support{
+    width: 100%;
+    border: 2px solid black;
+}
+
+#tech-support-cover{
+    width: 80%;
+    border: 2px solid black;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inner-section{
+    width: 250px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 1000px){
+    #cover-rone{
+        width: 100%;
+    }
+
+    #cover-rtwo{
+        width: 100%;
+    }
 }
